@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "chestdrop",
+  "version": "${version}",
+  "name": "ChestDrop",
+  "description": "Adds a Drop All button to chest-style container screens.",
+  "authors": ["ChestDrop"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.chestdrop.ChestDropClient"
+    ]
+  },
+  "mixins": [
+    "chestdrop.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "fabric-api": "*"
+  }
+}
