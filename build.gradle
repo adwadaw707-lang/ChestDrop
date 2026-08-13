@@ -12,6 +12,10 @@ base {
 
 repositories {
     mavenCentral()
+    maven {
+    name = "Mojang"
+    url = "https://libraries.minecraft.net/"
+}
 }
 
 dependencies {
